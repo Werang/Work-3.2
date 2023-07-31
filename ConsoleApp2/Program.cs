@@ -7,8 +7,8 @@ class MainClass
         string myName;
         myName = "Alex";
         Console.WriteLine(myName);
-        Console.WriteLine("дратути");
-        Console.WriteLine("Меня зовут Александр и я хочу перестать работать руками и начать работать головой");
+        Console.WriteLine("\t дратути");
+        Console.WriteLine("\t Меня зовут Александр и я хочу перестать работать руками и начать работать \n головой");
         Console.ReadKey();
     }
 }
