@@ -3,12 +3,10 @@ class MainClass
 {
     public static void Main(string[] args)
     {
-        string name = "Alex";
-        Console.WriteLine("\t Hello \n World");
-        Console.WriteLine();
-        Console.WriteLine($"My name is {name}");
-        byte age = 24;
-        Console.WriteLine($"Мой возраст {age}");
-        Console.ReadKey(); 
+        var name = "Alex";
+        var age = 24;
+        var favcolor = "pink";
+        Console.WriteLine("name {0} \n  age {1} \n favcolor {2}", name,age,favcolor);
+
     }
 }
