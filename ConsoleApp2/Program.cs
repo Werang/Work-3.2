@@ -3,10 +3,11 @@ class MainClass
 {
     public static void Main(string[] args)
     {
-        double result = 10 % 3;
-        Console.WriteLine("10 % 3 = "+result);
-
-
-
+        Console.Write("Enter your name:");
+        string name = Console.ReadLine();
+        Console.Write("Enter your age:");
+        int age = int.Parse(Console.ReadLine());
+        Console.WriteLine("Your name is {0} and age is {1}", name, age);
+        Console.ReadLine();
     }
 }
